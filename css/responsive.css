@@ -1,0 +1,345 @@
+@media screen and (max-height:800px){
+}
+@media screen and (max-height:700px){
+}
+@media screen and (max-width:1600px){
+	.intro__item{ margin-left: 120px;}
+	.crisis__wapper p{ width: 46%;}
+}
+@media screen and (max-width:1450px){
+	.nav li{ margin-left: 30px;}
+	.banner__content{ left: 130px;}
+	.banner__content h3{ font-size: 42px;}
+	.banner__content p{ font-size: 12px;}
+	.about__content{ left: 15%; top: 100px;}
+	.about__content strong{ font-size: 32px; height: 130px;}
+	.introduct__top strong{ font-size: 36px; margin-bottom: 26px;}
+	.introlist{ margin-top: 45px;}
+	.intro__item p b{ font-size: 46px;}
+	.introduct__text{ margin-top: -173px;}
+	.businee__title{ top: 50px;}
+	.businee__title strong{ font-size: 45px;}
+	.business__item span{ right: 120px; top: 150px;}
+	.businessbtn{ margin-right: 120px;}
+	.news__wapper{ padding-right: 60px;}
+	.news__item{ left: 50px;}
+	.news__wapper{ right: 14%;}
+	.crisis{ padding: 75px 50px 90px;}
+	.crisis__wapper strong{ font-size: 32px; width: 280px; margin-right: 50px;}
+	.crisis__wapper p{ margin-top: 0;}
+	.crisis__wapper b{ margin-top: 6px;}
+	.quality__top{ top: 0;}
+	.footer{ padding: 28px 50px;}
+	.pbanner__content{ left: 80px;}
+	.pbanner__tt{ margin-bottom: 40px;}
+	.pbanner__tt small{ font-size: 32px; margin-bottom: 10px;}
+	.pbanner__tt strong{ font-size: 36px;}
+	.pbanner__menu{ width: 500px;}
+	.menu__leval li figure strong{ left: 24px; bottom: 40px;}
+	.pbanertext{ left: 5%; bottom: 12%;}
+	.survey{ padding: 78px 5% 120px}
+	.about__title{ font-size: 38px;}
+	.survy__content{ margin-top: 76px;}
+	.course{ padding: 100px 5%;}
+	.speed{ padding: 100px 5%;}
+	.member{ padding: 100px 5% 0;}
+	.mechanism{ padding: 100px 5%;}
+	.honor{ padding: 100px 5% 60px;}
+	.news{ padding: 100px 60px 50px;}
+	.page-pa{ padding-left: 73px; padding-right: 73px; }
+} 
+@media screen and (max-width:1350px){
+	.quality__wisper{ width: auto; margin-right:108px;}
+	.honor__item{ padding: 10px 40px 0;}
+	.news__top strong{ font-size: 30px;}
+}
+@media screen and (max-width:1280px){
+	.intro__item{ margin-left: 80px;}
+	.introduct__text{ margin-top: -151px;}
+	.introduct__top strong{ font-size: 28px;}
+	.introduct__top p{ height: auto; margin-bottom: 20px;}
+	.about__content strong{ font-size: 28px; height: 90px;}
+	.businee__title{ left: 50px;}
+	.businessli{ margin-left: 50px;}
+	.newsinfo strong{ left: 5%; top: 50px;}
+	.news__wapper h3{ margin-bottom: 10px;}
+	.news__wapper p{ font-size: 12px; height: 42px; margin-bottom: 15px;}
+	.quality__top{ left: 0;}
+	.quality{ padding: 53px 50px 120px;}
+	.news-space{ height: 240px;}
+	.news__top{padding: 50px 0 60px;}
+	.news__top strong{ font-size: 24px;}
+	.news__text{ padding: 50px 0 80px;}
+}
+@media screen and (max-width:1200px){
+	.banner__content{ left: 60px;}
+	.banner__content h3{ font-size: 36px;}
+	.banner__swipter .slick-dots{ left: 60px;}
+	.nav li{ margin-left: 20px;}
+	.honor__item{ box-sizing: border-box; width: 33.3333%;}
+	.honor__item p{ font-size: 14px;}
+	.honor__swipter{ margin-top: 60px;}
+	.news{ padding: 70px 5% 50px;}
+	.news-list li{ width: 33.3333%;}
+}
+@media screen and (max-width:1100px){
+}
+@media screen and (max-width:1024px){
+	.header{ background: #314b75;}
+	.header.scoll{ animation: none !important;}
+	.oil-price{ position: relative; width: 100%; box-sizing: border-box;}
+	.header__right{ display: none;}
+	.menubtn{ display: block;}
+	.header__wapper{ border-bottom: none; margin: 0 5%; padding: 12px 0;}
+	.logo{ margin-left: 0;}
+	.logo img{ transition: 0s; opacity: 0; visibility: hidden;}
+	.logo img.hide{ opacity: 1; visibility: visible;}
+	.logo{ width: 50px;}
+	.banner{ margin-top: 70px;}
+	.banner__content{ top: 40%; left: 5%; margin-top: -74px;}
+	.banner__content h3{ font-size: 28px;}
+	.banner__swipter .slick-dots{ left: 5%; bottom: 20px;}
+	.about__content{ left: 8%; top: 45px;}
+	.about__content strong{ font-size: 24px; height: 70px;}
+	.introduct__text{ left: 8%; right: 8%;}
+	.introduct__top strong{ font-size: 24px; margin-bottom: 20px;}
+	.intro__item p b{ font-size: 38px;}
+	.introlist{ margin-top: 30px;}
+	.introduct__text{ margin-top: -131px;}
+	.businessdown{ position: relative; background: #1d4887;}
+	.businessli{ margin-left: 0;}
+	.businessbtn{ margin-right: 30px;}
+	.businee__title strong{ font-size: 34px;}
+	.businee__title small{ margin-bottom: 14px;}
+	.businee__title span{ margin-left: 0; width: 124px; height: 44px; line-height: 44px; font-size: 14px;}
+	.business__item span{ right: 5%; top: 24%; width: 140px; height: 44px; line-height: 44px;}
+	.newsleft{ width: 100%; float: none;}
+	.newslist{ position: relative; width: 100%;}
+	.news__item{ width: 33.333%; left: 0; float: left; height: 180px; border-bottom: none; position: relative; border-right: 1px solid rgba(255,255,255,0.14); box-sizing: border-box;}
+	.news__wapper{ left: 20px; right: 20px; margin-top: -49px;}
+	.crisis__wapper b{ margin-left: 50px;}
+	.crisis{ padding: 65px 5%;}
+	.quality{ padding: 50px 5% 78px;}
+	.pbanner__content{ left: 5%; top: 120px; margin-top: 0;}
+	.footer{ padding: 22px 5%;}
+	.pbanner__menu{ right: 0; height: 40%; top: auto; bottom: 0; width: 100%;}
+	.menu__leval{ border-top: 1px solid rgba(255,255,255,0.39); background: rgba(23,59,117,0.9);}
+	.menu__leval li figure strong{ left: 22px; bottom: auto; top: 50%; margin-top: -10px;}
+	.menu__text{ display: none;}
+	.menu__leval li:hover figure strong{ opacity: 1; visibility: visible; transition: 0s;}
+	.menu__leval li figure a{ display: block; height: 100%;}
+	.s-tr{ width: 100%;}
+	.s-ve{ height: 100%;}
+	.pbannerinner{ margin-top: 70px;}
+	.pbanertext{ width: 90%;}
+	.menuswa{ overflow-x: auto; -webkit-overflow-scrolling: touch;}
+	.menuslist{ margin-top: 30px; display: inline-flex; display: -webkit-inline-flex;}
+	.pbanertext .pbanner__tt{ margin-bottom: 0;}
+	.survey{ padding: 50px 5%;}
+	.about__title{ font-size: 30px;}
+	.survy__left h3{ font-size: 24px;}
+	.survy__content{ margin-top: 50px;}
+	.survy__left{ width: 100%;}
+	.survy__data{ width: 400px; max-width: 100%; float: left; margin-top: 48px;}
+	.survy__item{ margin-bottom: 50px;}
+	.survy__item:nth-child(n+3){ margin-bottom: 0;}
+	.course{ background-attachment: local;}
+	.course__box{ padding: 0 60px;}
+	.course__margin time{ font-size: 32px; margin-bottom: 24px;}
+	.speed__wapper .survy__left{ padding-top: 0;}
+	.speed{ padding: 50px 5%;}
+	.speed__img{ float: left; width: 100%; margin-top: 30px;}
+	.speed__img img{ max-width: 100%; width: auto; height: auto;}
+	.member{ padding: 50px 5%; background-attachment: local;}
+	.member__text{ margin-bottom: 100px;}
+	.member__swipter{ box-sizing: border-box; width: 100%; padding: 36px 35px 29px;}
+	.mechanism{ padding: 50px 5%;}
+	.honor{ padding: 50px 5%; background-attachment: local;}
+	.honor__info{ margin-top: 40px;}
+	.honor__item{ width: 100%; border-left: none; padding: 0; min-height: auto;}
+	.honor__swipter{ margin-top: 40px;}
+	.news{ padding: 50px 5%;}
+	.news-list li{ width: 32%; margin-right: 2%; margin-bottom: 40px;}
+	.news-list li:nth-child(3n+3){ margin-right: 0;}
+	.news-list li a{ margin: 0;}
+	.news-space{ height: 70px;}
+	.pageinfo a{ font-size: 14px;}
+	.pageprev{ padding: 35px 0 55px;}
+} 
+@media screen and (max-width:861px){
+	.intro__item{ margin-left: 50px;}
+	.crisis{ padding: 60px 5%;}
+	.crisis__wapper strong{ width: 100%; margin-bottom: 20px; margin-right: 0; font-size: 26px;}
+	.crisis__wapper p{ width: 87%;}
+	.crisis__wapper b{ float: right; margin-left: 0;}
+	.quality__list{ margin-top: 55px;}
+	.quality{ background-attachment: local; background-size: cover;}
+	.quality__wisper{ width: auto; width: calc(100% + 24px); max-width: none;}
+	.quality__btn{ position: relative; top: 0; margin-top: 10px; margin-left: 50%; transform: translateX(-42px); -webkit-transform: translateX(-42px); -moz-transform: translateX(-42px);}
+	.news-list li{ width: 48.5%; margin-right: 0;}
+	.news-list li:nth-child(2n+2){ float: right;}
+	.news-list{ padding-bottom: 20px;}
+	.news__top{ padding: 55px 0px 45px;}
+	.news__top strong{ width: 100%; margin-bottom: 15px;}
+	.news__fix,.pageleft{ float: none; width: auto;}
+	.news__tab{ float: none; width: auto; display: none;}
+	.news__li { margin-left: -2%;}
+	.news__li li{ float: left;display: block; width: 31.33%; margin-left: 2%;}
+	.news__text{ padding: 40px 0 60px;}
+	.pageprev .pageinfo{ margin-bottom: 6px;}
+	.pageprev a.pageback{ float: none; margin-top: 20px; width: 140px; height: 46px; line-height: 46px;}
+}
+@media screen and (max-width:751px){
+	.abouts{ width: 100%;}
+	.introduct{ width: 100%;}
+	.businessli{ width: 100%;}
+	.businessbtn{ display: none;}
+	.businessmore{ display: none;}
+	.businessin{ width: 100%;}
+	.businessin li{ width: 25%;}
+	.businee__title{ left: 5%; top: 30px;}
+	.businee__title small{ font-size: 12px; margin-bottom: 10px;}
+	.businee__title strong{ font-size: 26px;}
+	.businee__title span{ margin-top: 6px;}
+	.news__item{ width: 100%; border-right: none; border-bottom: 1px solid rgba(255,255,255,0.14);}
+	.news__wapper{ left: 5%; right: 5%;}
+	.quality__top{ left: 0; top: 0;}
+	.quality__list{ margin-top: 42px;}
+}
+@media screen and (max-width:641px){
+	.banner__content{ width: 90%; top: 40%; margin-top: -28px;}
+	.banner__content h3{ font-size: 24px; margin-bottom: 14px; margin-bottom: 0;}
+	.banner__content p{ display: none;}
+	.header__wapper{ padding: 10px 0;}
+	.logo{ width: 42px;}
+	.banner{ margin-top: 59px;}
+	.header.scoll .header__wapper{ padding-top: 10px;}
+	.menubtn span{ margin-top: 18px;}
+	.banner__swipter .slick-dots li{ margin-right: 14px; height: 4px;}
+	.banner__swipter .slick-dots li span{ padding-bottom: 26px;}
+	.banner__swipter .slick-dots li.slick-active{ width: 32px;}
+	.banner__swipter .slick-dots li.slick-active span:before{ height: 16px;}
+	.introduct__text{ position: relative; margin-top: 0; left: 0; right: 0; top: 0; background: #1d4887; padding: 32px 5%;}
+	.introduct__top strong{ color: #fff;}
+	.introduct__top p,.introduct__top span{ color: #fff;}
+	.intro__item p b,.intro__item span,.intro__item p,.intro__item p i{ color: #fff;}
+	.crisis__wapper p{ width: 100%;}
+	.crisis{ padding: 35px 5%;}
+	.crisis__wapper strong{ font-size: 22px; margin-bottom: 16px;}
+	.crisis__wapper b{ float: left; margin-top: 15px;}
+	.quality{ padding: 38px 5% 50px;}
+	.quality__list{ margin-top: 34px;}
+	.footer p{ width: 100%;}
+	.footer a{ float: left;}
+	.footer{ padding: 16px 5%;}
+	.pbanner__tt small{ font-size: 24px;}
+	.pbanner__tt strong{ font-size: 28px;}
+	.pbanner__tt{ margin-bottom: 30px;}
+	.pbannerfix span{ font-size: 18px; margin-bottom: 10px;} 
+	.menu__leval li figure strong{ font-size: 18px; margin-top: -9px;}
+	.pbanner__content{ width: 90%;}
+	.pbannerinner{ margin-top: 59px;}
+	.menuslist{ margin-top: 20px;}
+	.menuslist li a{ line-height: 42px; height: 42px; font-size: 14px; width: 108px;}
+	.pbanertext{ bottom: 8%;}
+	.about__title{ font-size: 28px;}
+	.survy__left h3{ font-size: 22px;}
+	.survy__content{ margin-top: 30px;}
+	.survy__text p{ font-size: 14px;}
+	.survy__data{ margin-top: 35px;}
+	.survy__item span b{ font-size: 40px;}
+	.course{ padding: 50px 5%;}
+	.coursebtn{ width: 50px; height: 50px; font-size: 20px; line-height: 50px;}
+	.course__box{ padding: 0; margin-top: 30px; padding-bottom: 70px;}
+	.coursebtn{ top: auto; bottom: 0;}
+	.coursebtn.prev{ left: 50%; margin-left: -60px;}
+	.coursebtn.next{ right: 50%; margin-right: -60px;}
+	.nuble{ right: 30px; top: 40px;}
+	.member__text{ margin-bottom: 50px;}
+	.member__text p{ margin-top: 32px;}
+	.member__item strong{ font-size: 20px;}
+	.honor__info{ margin-top: 30px;}
+	.honor__btn{ margin-top: 32px;}
+	.honor__btn span{ width: 50px; height: 50px; line-height: 50px;}
+	.honor__btn span{ margin-left: 12px;}
+	.pages a{ width: 48px; height: 48px; line-height: 48px; margin-left: 10px;}
+	.pages span{ width: 48px; height: 48px; line-height: 48px;}
+	.news-space{ height: 60px;}
+	.news__top strong{ font-size: 20px; margin-bottom: 5px;}
+	.news__top time{ font-size: 14px;}
+	.news__top{ padding: 45px 0px 30px;}
+} 
+@media screen and (max-width:481px){
+	.banner__content h3{ font-size: 20px;}
+	.banner__swipter .slick-dots li span{ font-size: 12px; padding-bottom: 20px;}
+	.banner__swipter .slick-dots li span:before{ top: 18px;}
+	.oil-price{ padding: 0 5% 26px;}
+	.prices{ padding-top: 40px;}
+	.pricefix{ margin-bottom: 24px;}
+	.price__in span{ font-size: 12px;}
+	.price__in p b{ font-size: 24px;}
+	.intro__item{ margin-left: 40px;}
+	.introlist{ display: flex; display: -webkit-flex;}
+	.intro__item p b{ font-size: 32px;}
+	.introduct__top strong{ font-size: 20px;}
+	.introduct__top p{ font-size: 12px;}
+	.businee__title{ position: relative; left: 0; top: 0; background: -moz-linear-gradient(left, #14aac6 0%, #204f95 100%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#14aac6), color-stop(100%,#204f95)); background: -webkit-linear-gradient(left, #14aac6 0%,#204f95 100%);
+ background: -o-linear-gradient(left, #14aac6 0%,#204f95 100%); background: -ms-linear-gradient(left, #14aac6 0%,#204f95 100%); background: linear-gradient(to right, #14aac6 0%,#204f95 100%); padding: 32px 5%;}
+	.businee__title span{ margin-top: 0; position: absolute; right: 5%; top: 32px;}
+	.businee__title strong{ font-size: 22px;}
+	.business__item span{ width: 110px; height: 38px; line-height: 38px; top: 15%;}
+	.businessin li b{ height: 32px; font-size: 32px;}
+	.businesswr{ padding: 14px 0 30px;}
+	.newsinfo strong{ top: 32px;}
+	.quality{ padding-top: 0; padding-left: 0; padding-right: 0; margin-top: 2px;}
+	.quality__top .qualitymore{ position: relative; bottom: 0;}
+	.quality__list{ width: 90%; margin: auto; margin-top: 38px;}
+	.quality__btn{ width: 72px; height: 72px;}
+	.quality__btn span{ margin-top: 30px; margin-left: 14px;}
+	.quality__btn span.next{ margin-right: 14px;}
+	.quality__btn:before{ top: 50%; margin-top: -11px;}
+	.quality{ padding-bottom: 40px;}
+	.pbanner__menu{ height: 32%;}
+	.pbanner__tt strong{ font-size: 24px;}
+	.menu__leval li figure strong{ font-size: 16px; margin-top: -8px;}
+	.navigate__main{ width: 240px;}
+	.navigate__wapper{ margin-left: 32px;}
+	.navigateli >li >a{ font-size: 16px;}
+	.menuleval li a{ font-size: 14px;}
+	.survey{ padding: 38px 5%;}
+	.menuslist{ margin-top: 10px;}
+	.menuslist li{ margin-right: 8px;}
+	.menuslist li a{ width: 100px; height: 40px; line-height: 40px; font-size: 13px;}
+	.about__title{ font-size: 24px;}
+	.survy__left h3{ font-size: 20px; margin-bottom: 12px;}
+	.course{ padding: 38px 5%;}
+	.course__box{ margin-top: 20px;}
+	.coursebtn,.honor__btn span{ width: 42px; height: 42px; line-height: 42px; font-size: 18px;}
+	.coursebtn.prev{ margin-left: -50px;}
+	.coursebtn.next{ margin-right: -50px;}
+	.speed,.member{ padding: 38px 5%;}
+	.member__bann{ margin-right: 0;}
+	.nuble{ position: relative; right: 0; top: 0; margin-top: 12px;}
+	.member__item p{ overflow: hidden;}
+	.member__text{ margin-bottom: 30px;}
+	.mechanism{ padding: 36px 5%;}
+	.news{ padding: 36px 5%;}
+	.news-list li{ width: 100%; margin-bottom: 30px;}
+	.pages a,.pages span{ width: 40px; height: 40px; line-height: 40px; margin-left: 5px; font-size: 12px;}
+}  
+@media screen and (max-width:400px){
+	.intro__item{ margin-left: 30px;}
+	.businee__title strong{ font-size: 20px;}
+	.pbannerinner figure img{ height: 220px; position: relative; width: auto; left: 50%; margin-left: -248px;}
+	.course__margin{ width: 95%;}
+	.member__swipter{ padding: 32px 28px 26px;}
+	.member__item strong{ font-size: 18px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+	.news__down b{ padding-top: 20px; margin-top: 12px;}
+	.news__down{ padding-bottom: 30px;}
+}
+@media screen and (max-width:350px){
+	.intro__item p b{ font-size: 25px;}
+	.intro__item p i{ font-size: 20px;}
+}
+	

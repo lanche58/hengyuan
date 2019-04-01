@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "PFDinTextCompPro-Regular";
+  src: url("PFDinTextCompPro-Regular.woff2") format("woff2"),
+       url("PFDinTextCompPro-Regular.woff") format("woff"),
+       url("PFDinTextCompPro-Regular.ttf") format("truetype"),
+       url("PFDinTextCompPro-Regular.eot") format("embedded-opentype"),
+       url("PFDinTextCompPro-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}

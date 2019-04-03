@@ -235,5 +235,38 @@ function setImgMax(img, imgW, imgH, tW, tH) {
 		var imgHeight = tWidth * coe;
 		img.css({ height: imgHeight, width: tWidth, left: 0, top: -(imgHeight - tHeight) / 2 });
 	};
-	
 };
+
+function setLayer(addr){
+	$.ajax({
+		url: addr,
+		dataType: 'html',
+		success: function(data){
+			if (data == "" || data == null) {
+				return;
+			} else {
+				$('body').append(data);
+				$('html').addClass('open'); 
+				setTimeout(function(){
+					$('.ly-box').addClass('show');
+				}, 100);
+			}
+		},
+		error: function(XMLHttpRequest, textStatus, errorThrown){ $('.ly-box').remove(); }
+	});
+	$(document).on(_click, '.ly-close', function(e){
+		e.preventDefault();
+		$('.ly-box').remove();
+		$('html').removeClass('open');
+	});
+	$(document).on(_click, '.ly-box', function(e){
+		if ($(e.target).hasClass('ly-box')) {
+			$('.ly-box').remove();
+			$('html').removeClass('open');
+		}
+	})
+};
+$(document).on(_click, '.ly-btn', function(e){
+	e.preventDefault();
+	setLayer($(this).attr('href'));
+});

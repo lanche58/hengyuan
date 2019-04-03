@@ -47,6 +47,29 @@
 	.honor{ padding: 100px 5% 60px;}
 	.news{ padding: 100px 60px 50px;}
 	.page-pa{ padding-left: 73px; padding-right: 73px; }
+	/* rr */
+	#identificate .freeTx{ padding-top: 0; }
+	#identificate .cul-logo-wrap{ margin-right: 10%; }
+	.cul-title .line{ margin-top: 25px; }
+	.business-list a{ margin-left: 35px; }
+	.business-list{ margin-left: -35px; }
+	.business-list li{ margin-bottom: 35px; }
+	.business-wrap .business-list{ margin-bottom: 45px; }
+	.business-list a{ height: 265px; padding-top: 38px; }
+	.purchase-list a{ padding-left: 35px; padding-right: 45px; }
+	.safe-list a{ padding-left: 30px; padding-right: 30px; margin-left: 40px; }
+	.safe-list .arrow{ margin-left: 30px; }
+	.safe-list{ margin-left: -40px; }
+	.pw{ width: 1000px; }
+	.recruit-list a{ padding-left: 35px; padding-right: 35px; font-size: 14px; }
+	.ly-recruit{ width: 870px; height: 490px; padding: 55px 60px 0; margin: -245px 0 0 -435px; }
+	.ly-recruit .ti{ margin-bottom: 40px; }
+	.ly-recruit .freeTx{ height: 320px; }
+	.ly-box .close{ margin: -280px -470px 0 0; }
+	.contact-list li{ font-size: 14px; }
+	.contact-list .name{ font-size: 22px; }
+	#map{ height: 600px; }
+	/* rr */
 } 
 @media screen and (max-width:1350px){
 	.quality__wisper{ width: auto; margin-right:108px;}
@@ -81,6 +104,11 @@
 	.honor__swipter{ margin-top: 60px;}
 	.news{ padding: 70px 5% 50px;}
 	.news-list li{ width: 33.3333%;}
+	/* rr */
+	.business-list .icon{ display: none; }
+	.idea-list li{ width: 206px; }
+	/* rr */
+
 }
 @media screen and (max-width:1100px){
 }
@@ -165,6 +193,47 @@
 	.news-space{ height: 70px;}
 	.pageinfo a{ font-size: 14px;}
 	.pageprev{ padding: 35px 0 55px;}
+	/* rr */
+	.page-pa{ padding-left: 5%; padding-right: 5%; }
+	#build .cul-title{ padding: 0; }
+	.pbannerinner figure img{ transform: none; -webkit-transform: none; }
+	#build .cul-title, #identificate .cul-title{ margin-bottom: 60px; }
+	#identificate{ padding-bottom: 100px; }
+	#identificate .cul-logo-wrap{ margin-right: 8%; }
+	.cul-purpose{ float: right; margin-right: 20px; }
+	#purpose{ padding-bottom: 120px; }
+	#build{ padding-top: 90px; padding-bottom: 100px; }
+	.news-list{ padding-bottom: 40px; }
+	.business-list .pic{ display: none; }
+	.business-list li{ width: 50%; }
+	.business-list .icon{ display: block; }
+	.business-wrap{ padding-bottom: 100px; padding-top: 80px; }
+	.purchase-ig-list .nowti{ font-size: 14px; line-height: 44px; }
+	.purchase-list a{ padding-left: 5%; padding-right: 5%; }
+	.safe-list a{ margin-left: 30px; }
+	.safe-list{ margin-left: -30px; }
+	.pw{ width: 90%; }
+	.qua-search{ padding-left: 5%; padding-right: 5%; }
+	.qua-search .sele{ margin-right: 10px; }
+	.qua-search > p{ margin-right: 15px; }
+	.qua-list .ma{ margin-left: 20px; }
+	.qua-list{ margin-left: -20px; }
+	.qua-list a{ margin-bottom: 30px; }
+	.business-wrap .qua-list{ margin-bottom: 50px; }
+	.idea-list li{ width: 25%; padding: 0 10px; box-sizing: border-box; -webkit-box-sizing: border-box; }
+	#idea{ padding-top: 80px; padding-bottom: 100px; }
+	.recruit-list a{ padding-left: 5%; padding-right: 5%; }
+	.recruit-list .r4{ display: none; }
+	.recruit-list .r1{ width: 25.4%; }
+	.recruit-list .r2{ width: 24.8%; }
+	.recruit-list .r5{ width: 10.5%; }
+	.recruit-list .r3{ width: 39.3%; }
+	#post{ padding-top: 80px; padding-bottom: 100px; }
+	.ly-recruit .freeTx{ height: auto; padding-bottom: 80px; }
+	.ly-cont{ top: 0; left: 0; padding-left: 5%; padding-right: 5%; width: 100%; height: 100%; overflow: hidden; overflow-y: scroll; -webkit-overflow-scrolling: touch; margin: 0; }
+	.ly-box .close{ right: 10px; top: auto; bottom: 10px; margin: 0; width: 40px; height: 40px; background: #B82539; border-radius: 50%; }
+	.ly-box .close:before{ content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: url('../images/close1.png') no-repeat center; transform: scale(.7); -webkit-transform: scale(.7); }
+	/* rr */
 } 
 @media screen and (max-width:861px){
 	.intro__item{ margin-left: 50px;}
@@ -188,6 +257,26 @@
 	.news__text{ padding: 40px 0 60px;}
 	.pageprev .pageinfo{ margin-bottom: 6px;}
 	.pageprev a.pageback{ float: none; margin-top: 20px; width: 140px; height: 46px; line-height: 46px;}
+	/* rr */
+	.cul-logo-wrap{ width: 240px; height: 240px; line-height: 240px; }
+	.cul-logo-wrap img{ transform: scale(.75); -webkit-transform: scale(.75); }
+	#purpose .cul-title{ float: none; width: 100%; }
+	#purpose .cul-tx{ margin-top: 40px; }
+	.cul-purpose{ float: none; width: 100%; margin: 50px 0 0; }
+	.cul-purpose:before{ display: none; }
+	#purpose{ padding-bottom: 100px; }
+	.purchase-ig-list li{ width: 50%; }
+	.purchase-list li{ width: 100%; }
+	.safe-list li{ width: 100%; }
+	.safe-list a{ padding-left: 5%; padding-right: 5%; }
+	.qua-search > p{ width: 100%; line-height: 1.4; margin: 0 0 10px 0; }
+	.qua-list a{ width: 33.33%; }
+	.recruit-list .r2{ display: none; }
+	.recruit-list .r1{ width: 33.4%; }
+	.recruit-list .r5{ width: 14.5%; }
+	.recruit-list .r3{ width: 52.1%; }
+	/* rr */
+
 }
 @media screen and (max-width:751px){
 	.abouts{ width: 100%;}
@@ -205,6 +294,20 @@
 	.news__wapper{ left: 5%; right: 5%;}
 	.quality__top{ left: 0; top: 0;}
 	.quality__list{ margin-top: 42px;}
+	/* rr */
+	#identificate .cul-logo-wrap{ float: none; margin: 0 auto 50px; }
+	.business-list a{ height: 220px; padding: 28px 25px 0; margin-left: 25px; }
+	.business-list{ margin-left: -25px; }
+	.business-list li{ margin-bottom: 25px; }
+	.business-list .tx{ padding-top: 30px; font-size: 14px; line-height: 24px !important; height: 72px; }
+	.business-wrap .business-list{ margin-bottom: 55px; }
+	.qua-search .sele{ width: 49%; margin-right: 2%; }
+	.qua-search .sele:nth-child(3){ margin-right: 0; }
+	.qua-search .btn-search{ margin-top: 2%; }
+	.idea-list li{ width: 50%; margin-bottom: 35px; }
+	.idea-list{ width: 75%; margin-left: auto; margin-right: auto; }
+	#idea{ padding-bottom: 65px; }
+	/* rr */
 }
 @media screen and (max-width:641px){
 	.banner__content{ width: 90%; top: 40%; margin-top: -28px;}
@@ -268,7 +371,45 @@
 	.news__top strong{ font-size: 20px; margin-bottom: 5px;}
 	.news__top time{ font-size: 14px;}
 	.news__top{ padding: 45px 0px 30px;}
+	/* rr */
+	.recruit-list .r2{ width: 40%; display: block; }
+	.recruit-list .r1{ width: 40%; }
+	.recruit-list .r5{ width: 20%; }
+	.recruit-list .r3{ display: none; }
+	.contact-list li{ width: 50%; margin-top: 20px; }
+	.contact-list li:nth-child(2n-1){ clear: both; }
+	.contact-area{ padding-top: 30px; }
+	/* rr */
 } 
+@media screen and (max-width:601px){
+	/* rr */
+	#build .cul-title, #identificate .cul-title{ margin-bottom: 10vw; }
+	#identificate .cul-logo-wrap{ margin-bottom: 8.33vw; }
+	#post, .business-wrap, #build, #purpose, #identificate{ padding-top: 13.33vw; padding-bottom: 16.67vw; }
+	.cul-title .line{ width: 6.67vw; margin-top: 4.17vw; }
+	#purpose .cul-tx{ margin-top: 6.67vw; }
+	.cul-purpose{ margin-top: 8.33vw; }
+	.business-list li{ width: 100%; }
+	.business-list a{ padding-left: 5%; padding-right: 5%; }
+	.business-list li{ margin-bottom: 5vw; }
+	.business-wrap .business-list{ margin-bottom: 8.33vw; }
+	.business-wrap .purchase-list{ margin-bottom: 13.33vw; }
+	.purchase-list a{ height: auto; padding-top: 5vw; padding-bottom: 5vw; }
+	.safe-list li{ margin-bottom: 5vw; }
+	.business-wrap .safe-list{ margin-bottom: 8.33vw; }
+	.business-wrap .qua-search{ margin-bottom: 9.17vw; }
+	.qua-list a{ width: 50%; margin-bottom: 5vw; }
+	.business-wrap .qua-list{ margin-bottom: 8.33vw; }
+	#post .cul-title, #idea .cul-title{ margin-bottom: 10vw; }
+	#idea{ padding-top: 13.33vw; padding-bottom: 10.83vw; }
+	.idea-list{ width: 85%; }
+	.idea-list .icon{ width: 104px; height: 104px; line-height: 104px; font-size: 36px; }
+	.recruit-list a{ padding-top: 4.5vw; padding-bottom: 4.5vw; }
+	.ly-recruit .ti{ margin-bottom: 6.67vw; }
+	#map{ height: 100vw; margin-top: 11.67vw; }
+
+	/* rr */
+}
 @media screen and (max-width:481px){
 	.banner__content h3{ font-size: 20px;}
 	.banner__swipter .slick-dots li span{ font-size: 12px; padding-bottom: 20px;}
@@ -327,6 +468,37 @@
 	.news{ padding: 36px 5%;}
 	.news-list li{ width: 100%; margin-bottom: 30px;}
 	.pages a,.pages span{ width: 40px; height: 40px; line-height: 40px; margin-left: 5px; font-size: 12px;}
+	/* rr */
+	.cul-title .line{ height: 3px; }
+	.cul-tx{ font-size: 14px; }
+	.purchase-list .nowti{ line-height: 26px; font-size: 14px; }
+	.purchase-list .icon{ font-size: 26px; margin-right: 10px; }
+	.purchase-list a{ line-height: 26px; }
+	.purchase-list .date{ font-size: 12px; }
+	.purchase-ig-list li{ width: 100%; }
+	.purchase-ig-list li + li{ margin-top: 20px; }
+	.safe-list .nowti{ font-size: 14px; margin-bottom: 4px; }
+	.safe-list .date{ font-size: 12px; }
+	.safe-list .txts .icon{ width: 46px; height: 46px; margin-right: 10px; line-height: 46px; font-size: 18px; }
+	.safe-list .b{ padding-top: 2px; }
+	.safe-list .txts{ padding-right: 15px; }
+	.safe-list .arrow{ width: 26px; height: 26px; margin-left: 15px; line-height: 26px; font-size: 16px; }
+	.safe-list a{ padding-top: 2.83vw; padding-bottom: 2.83vw; }
+	.qua-search .sele{ width: 100%; margin-right: 0; }
+	.qua-search .sele + .sele{ margin-top: 2%; }
+	.qua-more{ width: 54px; height: 54px; margin: -27px 0 0 -27px; }
+	.idea-list .text{ font-size: 14px; }
+	.idea-list .ti{ font-size: 18px; margin-top: 8px; }
+	.idea-list{ width: 95%; }
+	.idea-list .icon{ width: 84px; height: 84px; line-height: 84px; font-size: 32px; }
+	.recruit-list .r2{ display: none; }
+	.recruit-list .r5{ width: 30%; text-align: right; }
+	.recruit-list .r1{ width: 70%; }
+	.ly-recruit .ti{ font-size: 18px; }
+	.contact-list li{ font-size: 12px; }
+	.contact-list .name{ font-size: 18px; }
+	.contact-area{ padding-top: 20px; }
+	/* rr */
 }  
 @media screen and (max-width:400px){
 	.intro__item{ margin-left: 30px;}
@@ -337,6 +509,12 @@
 	.member__item strong{ font-size: 18px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
 	.news__down b{ padding-top: 20px; margin-top: 12px;}
 	.news__down{ padding-bottom: 30px;}
+	/* rr */
+	.cul-logo-wrap{ width: 200px; height: 200px; line-height: 200px; }
+	.cul-logo-wrap img{ transform: scale(.6); -webkit-transform: scale(.6); }
+	.qua-list .ma{ margin-left: 15px; }
+	.qua-list{ margin-left: -15px; }
+	/* rr */
 }
 @media screen and (max-width:350px){
 	.intro__item p b{ font-size: 25px;}

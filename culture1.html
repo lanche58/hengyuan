@@ -170,7 +170,8 @@
                             <p class="ti">核心价值观</p>
                             <p class="text">为社会创造财富<br>为企业创造效益<br>为员工实现价值</p>
                         </div>
-                    </div>
+					</div>
+					<div class="purpose-count"><span class="cnum">01</span>&nbsp;/&nbsp;<span class="anum">01</span></div>
                 </div>
                 <!-- cul-purpose -->
             </div>
@@ -222,7 +223,7 @@
                     </a>
                 </li>
             </ul>
-            <div class="more tac"><a href="#" class="btn-load-more">查看更多></a></div>
+            <div class="more tac"><a href="culture2.html" class="btn-load-more">查看更多></a></div>
         </section>
 
 		<footer class="footer clearfix">
@@ -233,7 +234,26 @@
 		<script src="js/plugin.js"></script>
 		<script src="js/page.js"></script>
 		<script>
-			$(".purpose-list").slick();
+			$(function(){
+				var purposeNum = $('.purpose-list .item').length;
+				purposeNum = purposeNum > 9 ? purposeNum : '0' + purposeNum;
+				$('.purpose-count .anum').html(purposeNum);
+
+				$(".purpose-list").slick({
+					prevArrow: '<a class="slick-prev"></a>',
+					nextArrow: '<a class="slick-next"></a>'
+				}).on('beforeChange', function(event, slick, currentSlide, nextSlide){
+					var minnum = nextSlide + 1;
+					minnum = minnum > 9 ? minnum : '0' + minnum;
+					$('.purpose-count .cnum').html(minnum);
+				});
+
+				$('.pbanner__tt small,.pbanner__tt strong,.about__title').animatext({
+					speed: 100,
+					effect: 'bounceIn',
+					reverse: false
+				});
+			})
 		</script>
 	</body>
 
